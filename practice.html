@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+            p{
+                color:blue
+            }
+        </style>
+    </head>
+    <body>
+        <p id="p1">hello</p>
+        <button onclick="fun">font</button>
+        <script>
+            font=10
+            function fun()
+{
+setInterval(
+()=>
+{
+if(font<=50)
+{
+font++
+document.getElementById("p1").style.fontSize=font+"px";
+document.getElementById("p1").style.color="red"
+}
+},50
+);
+}
+</script>
+</body>
+</html>
+    `

@@ -1,0 +1,115 @@
+nav li:hover
+{
+    background-color: green;
+    color:white;
+    font-size: large;
+    text-decoration: underline;
+}
+nav li a:active
+{
+    background-color: rgb(20, 143, 20);
+    color: white;
+}
+.navbar-brand
+{
+    color: rgb(37, 192, 37);
+    font-weight: bold;
+}
+nav
+{
+   font-size: medium;
+}
+.carousel-caption
+{
+    color: black;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+.dishes,
+.review
+{
+    background-color: rgb(223, 220, 220);
+}
+.btn
+{
+    background-color: green;
+    color: white;
+}
+.colum
+{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.colum span
+{
+  color: green;
+  font-weight: bold;
+}
+
+.modal-backdrop {
+    position: inherit;
+}
+
+.btn:hover
+{
+    background-color: blue;
+    color:white;
+}
+.about
+{
+    background-color:white ;
+}
+.sub-heading
+{
+   text-align: center;
+   color: black;
+   padding-top: 1%;
+}
+.heading
+{
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+.col-md-6 h3
+{ 
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.user-info
+{
+    text-align: center;
+    color: green;
+}
+
+.column
+{
+    float: left;
+    font-weight: 30%;
+    color: green;
+    float: left;
+    margin-right: 2rem;
+    width: 90vw;
+    padding: 2rem;
+    background-color:rgb(223, 220, 220);
+}
+.orderform
+{
+    width: 25rem; 
+    border: none; 
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.3rem;
+}
+.inputbox
+{
+    margin:auto;
+}
+footer
+{
+    background-color: black;
+    color: white;
+}
